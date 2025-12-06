@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Mystery Box Nanino</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, sans-serif;
+      background: radial-gradient(circle at top, #1a1a2e, #000);
+      color: #f5f5f5;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    .card {
+      max-width: 460px;
+      width: 100%;
+      padding: 24px;
+      border-radius: 18px;
+      background: rgba(10, 10, 20, 0.95);
+      border: 1px solid rgba(255,255,255,0.08);
+      box-shadow: 0 18px 45px rgba(0,0,0,0.6);
+    }
+    h1 {
+      margin: 0 0 12px;
+      font-size: 26px;
+    }
+    p {
+      margin: 8px 0;
+      line-height: 1.6;
+      color: #d0d0e0;
+    }
+    ul {
+      margin: 10px 0 18px;
+      padding-left: 18px;
+      color: #d0d0e0;
+    }
+    .badge {
+      display: inline-flex;
+      padding: 5px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,0.15);
+      font-size: 11px;
+      margin-bottom: 8px;
+      color: #ffea9c;
+    }
+    .price {
+      font-size: 22px;
+      margin: 8px 0 16px;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px 16px;
+      border-radius: 999px;
+      border: none;
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+      width: 100%;
+      background: linear-gradient(135deg, #ffcc33, #ff5f6d);
+      color: #1a0f00;
+      text-decoration: none;
+      margin-top: 4px;
+    }
+    .note {
+      margin-top: 10px;
+      font-size: 12px;
+      color: #a0a0b8;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="badge">Drop limitado</div>
+    <h1>Mystery Box Nanino – Edición Digital</h1>
+    <p>Compra una vez. Recibe contenido misterioso digital al instante en tu correo.</p>
+    <ul>
+      <li>Entrega inmediata.</li>
+      <li>Contenido sorpresa premium.</li>
+      <li>Edición limitada.</li>
+    </ul>
+    <p class="price">USD $29</p>
+
+    <a class="btn" href="#">
+      Abrir mi Mystery Box ahora
+    </a>
+
+    <p class="note">
+      Pago procesado por Stripe. Recibirás un email de confirmación automáticamente.
+    </p>
+  </div>
+</body>
+</html>
